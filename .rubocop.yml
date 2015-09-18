@@ -37,6 +37,9 @@ SpaceInsideBlockBraces:
 
 SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
+  
+BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
 
 StringLiterals:
   EnforcedStyle: double_quotes
