@@ -1,5 +1,6 @@
+Rails:
+  Enabled: true
 AllCops:
-  RunRailsCops: true
   Exclude:
     - 'db/schema.rb'
 
@@ -37,7 +38,7 @@ SpaceInsideBlockBraces:
 
 SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-  
+
 BracesAroundHashParameters:
   EnforcedStyle: context_dependent
 
@@ -80,7 +81,7 @@ Style/Semicolon:
 Style/SingleLineBlockParams:
   Enabled: false
 
-Style/TrailingComma:
+Style/TrailingCommaInLiteral:
   Enabled: false
 
 Style/WordArray:
