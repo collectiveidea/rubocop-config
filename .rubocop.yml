@@ -45,6 +45,9 @@ BracesAroundHashParameters:
 StringLiterals:
   EnforcedStyle: double_quotes
 
+Rails/Date:
+  EnforcedStyle: strict
+
 #################
 # Disabled cops #
 #################
