@@ -45,6 +45,10 @@ BracesAroundHashParameters:
 StringLiterals:
   EnforcedStyle: double_quotes
 
+# See: http://collectiveidea.com/blog/archives/2016/09/09/my-ruby-epiphany/
+Style/AccessModifierIndentation:
+  EnforcedStyle: outdent
+
 #################
 # Disabled cops #
 #################
