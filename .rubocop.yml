@@ -1,3 +1,6 @@
+# Load the rubocop-rspec gem
+require: rubocop-rspec
+
 Rails:
   Enabled: true
 AllCops:
@@ -90,4 +93,9 @@ Style/WordArray:
 # HABTM still has a place.
 # http://collectiveidea.com/blog/archives/2014/08/11/has_and_belongs_to_many-isnt-dead/
 Rails/HasAndBelongsToMany:
+  Enabled: false
+
+# RSpec examples are ok if they're long.
+# Explicitness is better than cleverness in tests.
+RSpec/ExampleLength:
   Enabled: false
