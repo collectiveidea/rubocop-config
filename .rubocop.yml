@@ -11,7 +11,8 @@ AllCops:
 # [i] Overrides #
 #################
 
-CollectionMethods:
+Style/CollectionMethods:
+  Enabled: true
   # Mapping from undesired method to desired_method
   # e.g. to use `detect` over `find`:
   #
