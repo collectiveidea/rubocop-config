@@ -38,10 +38,10 @@ SignalException:
   EnforcedStyle: only_raise
 
 SpaceInsideBlockBraces:
-  SpaceBeforeBlockParameters: false
+  SpaceBeforeBlockParameters: true
 
 SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
+  EnforcedStyle: space
 
 BracesAroundHashParameters:
   EnforcedStyle: context_dependent
