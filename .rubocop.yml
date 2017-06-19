@@ -103,7 +103,28 @@ Style/WordArray:
 Rails/HasAndBelongsToMany:
   Enabled: false
 
+# enforces using the class name in a describe block (e.g. `describe TestedClass do`)
+RSpec/DescribeClass:
+  Enabled: false
+
+# enforces using the described_class variablea (`described_class` instead of MyClass)
+RSpec/DescribedClass:
+  Enabled: false
+
 # RSpec examples are ok if they're long.
 # Explicitness is better than cleverness in tests.
 RSpec/ExampleLength:
+  Enabled: false
+
+# enforces using either `expect` or `allow` for stubs.  Since they do differnet things,
+# we should let the developer decide which to use
+RSpec/MessageExpectation:
+  Enabled: false
+
+# enforces having only one `expect` per test
+RSpec/MultipleExpectations:
+  Enabled: false
+
+# enforces rules about how many nested `describe` blocks are allowed
+RSpec/NestedGroups:
   Enabled: false
