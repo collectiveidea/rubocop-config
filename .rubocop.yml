@@ -79,6 +79,13 @@ Style/Lambda:
 Style/NegatedIf:
   Enabled: false
 
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    "%w": "[]"
+    "%W": "[]"
+    "%i": "[]"
+    "%I": "[]"
+
 Style/Semicolon:
   Enabled: false
 
