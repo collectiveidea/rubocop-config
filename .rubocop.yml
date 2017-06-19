@@ -32,7 +32,7 @@ IfUnlessModifier:
   MaxLineLength: 75
 
 LineLength:
-  Max: 200
+  Max: 120
 
 SignalException:
   EnforcedStyle: only_raise
