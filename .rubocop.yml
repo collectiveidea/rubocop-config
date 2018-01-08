@@ -29,7 +29,7 @@ Style/CollectionMethods:
 
 # Align ends correctly.
 EndAlignment:
-  AlignWith: variable
+  EnforcedStyleAlignWith: variable
 
 LineLength:
   Max: 120
