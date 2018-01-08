@@ -31,9 +31,6 @@ Style/CollectionMethods:
 EndAlignment:
   AlignWith: variable
 
-IfUnlessModifier:
-  MaxLineLength: 75
-
 LineLength:
   Max: 120
 
