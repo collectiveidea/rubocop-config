@@ -131,3 +131,7 @@ RSpec/MultipleExpectations:
 # enforces rules about how many nested `describe` blocks are allowed
 RSpec/NestedGroups:
   Enabled: false
+
+# enforces rules about using `it` or `describe` block methods instead of `feature` or `scenario`
+Capybara/FeatureMethods:
+  Enabled: false
