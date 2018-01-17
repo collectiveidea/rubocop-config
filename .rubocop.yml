@@ -27,6 +27,9 @@ Style/CollectionMethods:
     find: 'detect'
     each_with_index: 'each.with_index'
 
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
 # Align ends correctly.
 EndAlignment:
   EnforcedStyleAlignWith: variable
@@ -68,9 +71,6 @@ Style/Documentation:
   Enabled: false
 
 Style/EachWithObject:
-  Enabled: false
-
-Style/EmptyMethod:
   Enabled: false
 
 Style/FormatString:
