@@ -89,6 +89,9 @@ Style/PercentLiteralDelimiters:
     "%i": "[]"
     "%I": "[]"
 
+Style/AsciiComments:
+  Enabled: false
+
 Style/Semicolon:
   Enabled: false
 
